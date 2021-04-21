@@ -1,3 +1,7 @@
+import copy
+import flask from Flask, render_template
+app = Flask(__name__)
+@app.route('/')
 class Rectangle:
     def __init__(self, a, b, c, d, x, y, width, height):
         self.__x = x
